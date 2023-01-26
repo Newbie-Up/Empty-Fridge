@@ -1,13 +1,13 @@
-
+import React from 'react'
+import Auth from './Components/Auth/Auth';
+import Main from './Views/Main/Main'
 import logo from './logo.svg';
 import './App.css';
 
-import React from 'react'
-import Auth from './Components/Auth/Auth';
 
 const App = () => {
   return (
-    <div><Auth/></div>
+    <div><Auth><Main/></Auth></div>
   )
 }
 

@@ -1,0 +1,25 @@
+.auth {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form div {
+	margin-bottom: 10px;
+}
+
+.form button {
+	background-color: aquamarine;
+}
+
+.link {
+	margin-top: 10px;
+}
